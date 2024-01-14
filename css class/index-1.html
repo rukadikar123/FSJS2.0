@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        /* universal selectors */
+        *{
+            background-color: white;
+        }
+        /* individual selectprs */
+        p {
+            color: yellowgreen;
+    
+        }
+        /* class id selector */
+        .bg-green {
+            color: brown;
+
+        }
+        #color {
+            background-color: chartreuse;
+        }
+        /* and selectors (chained) */
+        li.bg_black {
+            background-color: rgba(220, 20, 60, 0.588);
+        }
+        /* combined selectors */
+        span, li{
+            color: red;
+        }
+        /* inside a element */
+        div li{
+            background-color: orange;
+        }
+        /* direct child */
+        div > p {
+            color: aqua;
+        }
+        /* sibling ~ + */
+</style>
+
+</head>
+<body>
+    <div>welcopme in live class</div>
+    <span>span is just span nothing more</span>
+    <p>we all know paragraph</p> 
+    <div>
+        <p>this is awesome</p>
+        <li>
+
+        <ul>
+            <li>list 1</li>
+            <li class="bg-green">item 2</li>
+            <li id="color">item 3</li>
+
+        </ul>
+    </li></div>
+    <div><li awesome>
+        <ul>
+            <li class="bg_black">highlight me</li>
+            <li>highlight me</li>
+
+        </ul>
+    </li></div>
+    <p class="sibling 1">paragraph 1</p>
+    <p>paragraph 2</p>
+    <p>paragraph 3</p>
+    <p>paragraph 4</p>
+</body>
+</html>

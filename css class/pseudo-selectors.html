@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+        .imp-label::before{
+            content: 'n';
+            display: inline;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: blue;
+            padding: 7px 9px;
+        }
+        .imp-label::after{
+            content: 'n';
+            display: inline;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: blue;
+            padding: 7px 9px;
+        }
+ 
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <label class="imp-label" for="name">name</label>
+            <input type="text" name="name">
+
+            <label for="email">email</label>
+            <input type="text" name="email">
+
+            <button data-tooltip="tooltip" class="btn" type="submit">submit</button>
+
+        </form>
+    </div>
+</body>
+
+</html>

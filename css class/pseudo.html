@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo</title>
+    <style>
+        .imp-label::before{
+            content: 'n';
+            display: inline;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: blue;
+            padding: 7px 9px;
+        }
+        .imp-label::after{
+            content: 'n';
+            display: inline;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: blue;
+            padding: 7px 9px;
+        }
+        .btn{
+                background-color: blue;
+                color: #fff;
+                border-radius: 1px;
+                padding: 7px 9px;
+        }
+        .btn:hover {
+                background-color: #fff;
+                color: blue;
+                border-radius: 3px;
+                padding: 7px 9px;
+        }
+         a:visited{
+            color: aquamarine;
+        } 
+        a:link{
+            color: red;
+        }
+        input:focus{
+            background-color: chartreuse;
+            color: darkgoldenrod;
+        } 
+        li:nth-child(odd){
+            border: 2px dotted black;
+            background-color: deepskyblue;
+        }
+        li:first-child{
+            color: crimson;
+        }
+        li:last-child{
+            color: green ;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <form action="">
+            <label class="imp-label" for="name">name</label>
+            <input type="text" name="name">
+
+
+            <label for="email">email</label>
+            <input type="text" name="email">
+            
+
+            <button data-tooltip="tooltip" class="btn" type="submit">submit</button>
+            <a href="https://www.google.com/">google</a> <br>
+            <input type="text" >name</input><br>
+            <input type="text">password</input>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+                <li>four</li>
+                <li>five</li>
+                <li>six</li>
+                <li>seven</li>
+                <li>eight</li>
+                <li>nine</li>
+                <li style="color: blueviolet;">ten</li>
+
+            </ul>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+                
+            
+        
+
+
+        </form>
+    </div>
+</body>
+
+</html>
