@@ -1,0 +1,93 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.974);
+
+}
+.container{
+    overflow: hidden;
+    max-width: 1440px; 
+    margin: auto;   
+    width: 100%;
+    height: 100%;
+    margin:3% 7%;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+nav div img{
+    height: auto;
+    width: 105px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.grow-list{
+    margin-right: 315px;
+
+}
+.list-item{
+    margin-right:40px;
+    list-style: none;   
+    font-size: small;
+    color: #999898;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.list-item:first-child{
+    font-weight: 700;
+    color: #000000;
+}
+.button-group button{
+    margin-right: 230px;
+    background-color: #5a4fb1;
+    padding: 14px 19px;
+    
+}
+.nav-button{
+    border: none;
+    border-radius: 8px;
+    color: aliceblue;
+}
+.banner-container{
+    display: flex;
+    align-content: center;
+    margin: 3% 0;
+    justify-content: space-between ;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.heading-text{
+    font-size: 52px;
+    padding-top: 21%;
+   color: #342e64ec;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.description{
+    padding: 25px 0;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 23px;
+    margin-right: 180px;
+    color:  #999898;
+}
+.heading-text span{
+    color: #5a4fb1;
+}
+.btn{
+    background-color: #5a4fb1f7;
+    padding: 20px 40px;
+    margin-top: 9%;
+}
+.banner-container div img{
+    margin-left: -7%;
+}
