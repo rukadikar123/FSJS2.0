@@ -1,0 +1,104 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between; 
+    padding: 1% 5%;
+    height: 10vh;
+    width: 100%;
+}
+.list{
+    display: flex;
+    color: white;
+    margin-right: 390px;
+}
+.line{
+    border: 1px solid rgba(255, 255, 255, 0.742);
+    height: 50px;
+}
+.list-item{
+    list-style: none;
+    margin-right:60px;
+    font-weight: 600;
+    font-size: small;
+}
+.logo{
+    height:auto;
+    width: 90px;
+}
+div ul li:first-child::after{
+    content: "\0002C7";
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+.button-small{
+    background-color: rgba(197, 24, 213, 0.967);
+    border: none;
+    color: whitesmoke;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 10px 35px;
+    font-size: 13px;
+    margin-left: -160px;
+}
+.hero{
+    background-image: url(./assets/bg.png);
+    height: 90vh;
+    width: 100vw;
+    background-size:100% 100% ;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    
+}
+.hero-heading{
+    font-size: 85px;
+    color: #ffffff;
+    text-align: center;
+    padding-left:20%;
+    padding-right: 20%;
+    margin-top: -14%; 
+    line-height: 90px;
+    font-weight: 600;
+
+}
+.hero-description{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+}
+.button-large{
+    border: none;
+    background-color:rgba(197, 24, 213, 0.967) ;
+    color: #ffffff;
+    border-radius: 8px;
+    font-weight: 650;
+    font-size: 25px;
+    position: relative;
+    top: 7%;
+    right: 10px;
+    left: 15px;
+    padding: 15px 40px;
+
+}
