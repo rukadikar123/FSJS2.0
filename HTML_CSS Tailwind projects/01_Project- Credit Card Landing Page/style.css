@@ -34,18 +34,23 @@ nav {
     align-items: center;
 
 }
-.nav_1:hover{
+
+.nav_1:hover {
     cursor: pointer;
 }
-.nav_2:hover{
-     cursor: pointer;
-}
-.nav_3:hover{
+
+.nav_2:hover {
     cursor: pointer;
 }
-.nav_4:hover{
+
+.nav_3:hover {
     cursor: pointer;
 }
+
+.nav_4:hover {
+    cursor: pointer;
+}
+
 nav ul li {
     padding-left: 60px;
     padding-top: 14px;
@@ -61,16 +66,19 @@ nav ul li {
     top: 40px;
     right: 90px;
 }
-.navbar2 li:hover{
+
+.navbar2 li:hover {
     cursor: pointer;
 }
-.navbar2 li:first-child::after{
+
+.navbar2 li:first-child::after {
     content: "\0002C7";
     position: relative;
     top: 6px;
     left: 6px;
-   
+
 }
+
 .img {
     position: relative;
     top: 2px;
@@ -142,9 +150,11 @@ nav ul li {
     top: 13px;
     right: 45px;
 }
-.arrow_main:hover{
+
+.arrow_main:hover {
     cursor: pointer;
 }
+
 .arrow_svg {
     position: relative;
     top: 23px;
@@ -577,7 +587,8 @@ nav ul li {
     left: 670px;
     z-index: 33;
 }
-.Started:hover{
+
+.Started:hover {
     cursor: pointer;
 }
 
@@ -629,18 +640,23 @@ nav ul li {
     color: rgba(240, 248, 255, 0.67);
     font-size: 14px;
 }
-.footer_2:hover{
+
+.footer_2:hover {
     cursor: pointer;
 }
-.footer_3:hover{
+
+.footer_3:hover {
     cursor: pointer;
 }
-.footer_4:hover{
+
+.footer_4:hover {
     cursor: pointer;
 }
-.footer_5:hover{
+
+.footer_5:hover {
     cursor: pointer;
 }
+
 .footer_1 li {
     padding-right: 55px;
 }
