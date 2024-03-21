@@ -29,13 +29,13 @@
 
 // const p=Math.PI;
 // console.log(p);
-//  console.log(Math.round(pI));
+//  console.log(Math.round(p));
 //  console.log(Math.round(9.8));
 //  console.log(Math.round(9.3));
 //  console.log(Math.round(9.5));
 
-// console.log(Math.floor(9.6));
-// console.log(Math.ceil(9.8));
+// console.log(Math.floor(9.2));
+// console.log(Math.ceil(9.1));
 
 // max and min:
 
@@ -44,7 +44,7 @@
 
 // random:
 
-// console.log(Math.random()*100);
+// console.log(Math.random()*10);
 // console.log(Math.round(Math.random()*100));
 
 // loops:
@@ -63,6 +63,6 @@
 
 // for:
 
-for (let i=0;i<=5;i++){
-    console.log(`${i}*${i} =${i * i}`);
-}
+// for (let i=0;i<=5;i++){
+//     console.log(`${i}*${i} =${i * i}`);
+// }

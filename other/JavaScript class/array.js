@@ -16,7 +16,7 @@
 // let fruits=['apple','orange','mango','bananas'];
 // fruits.splice(2,0,'chota apple','bada apple');
 // console.log(fruits);
-// fruits.splice(2,1,'chota apple','bada apple');
+// fruits.splice(2,2,'chota apple','bada apple');
 // console.log(fruits);
 
 // concatination:
@@ -29,9 +29,9 @@
 // arr4.fill('sid',2,6);
 // console.log(arr4)
 
-// // include:
+// include:
 // let arr5=[1,2,4,8,5,6,8,7];
-// console.log(arr5.includes(8,6));
+// console.log(arr5.includes(2,3));
 
 // indexof:
 // let num=[1,2,4,8,5,6,8,7];
@@ -51,6 +51,8 @@
 // pop:
 
 // let math=[1,4,9,16,25];
+// console.log(math.pop());
+// console.log(math);
 // console.log(math.pop());
 // console.log(math);
 
