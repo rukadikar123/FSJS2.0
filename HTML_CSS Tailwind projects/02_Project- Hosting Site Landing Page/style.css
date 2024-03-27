@@ -641,7 +641,7 @@ button:hover {
 }
 .footer{
     background-color: black;
-    height: 90vh;
+    height: 150vh;
 }
 .footer h1{
     color: white;
@@ -672,4 +672,29 @@ button:hover {
   color: rgba(255, 255, 255, 0.727);
   background-color: rgb(30, 143, 255);
 
+}
+.footer hr{
+    margin: 100px 150px;
+    border: 1px solid rgba(74, 73, 73, 0.77);
+
+}
+.footer_box{
+    color: rgba(255, 255, 255, 0.863);
+    display: flex;
+    justify-content: space-around;
+    padding: 0 90px;
+}
+.footer_box ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.footer> img{
+    position: relative;
+    bottom: 65px;
+    left: 150px;
 }
