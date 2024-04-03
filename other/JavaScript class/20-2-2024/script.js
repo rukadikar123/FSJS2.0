@@ -28,7 +28,7 @@ heros.sid()
 //     isavailable:false
 // }
 
-// const TAassistant={
+// const TAassistant={ 
 //     makeassignment:'js assiognment',
 //     fulltime:true,
 //     __proto__: Teachingsupport
