@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello JavaScript Bootcamp</h1>
+    <ul>
+
+    </ul>
+
+    <script>
+        // const list = `
+        // <li>siddharth</li>
+        // <li>sagar</li>
+        // <li>sachin</li>
+        //  `;
+        // const ul=document.querySelector("ul")
+        // ul.innerHTML=list
+
+        let title=document.createElement("h1")
+        title.className= "title"    
+        title.style.fontSize="35px"
+        title.style.color="green"
+        title.textContent="creating an element in DOM"
+        console.log(title);
+        document.body.appendChild(title)
+        // document.body.removeChild(title)
+    </script>
+</body>
+
+</html>
