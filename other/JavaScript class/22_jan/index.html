@@ -9,9 +9,12 @@
 
 <body>
     <h1>Hello JavaScript Bootcamp</h1>
+    <button onclick="maths()" id="fsjs2">Submit</button>
+    <p id="js"></p>
     <ul>
 
     </ul>
+    
 
     <script>
         // const list = `
@@ -22,14 +25,34 @@
         // const ul=document.querySelector("ul")
         // ul.innerHTML=list
 
-        let title=document.createElement("h1")
-        title.className= "title"    
-        title.style.fontSize="35px"
-        title.style.color="green"
-        title.textContent="creating an element in DOM"
-        console.log(title);
-        document.body.appendChild(title)
+        // let title=document.createElement("h1")
+        // title.className= "title"    
+        // title.style.fontSize="35px"
+        // title.style.color="green"
+        // title.textContent="creating an element in DOM"
+        // console.log(title);
+        // document.body.appendChild(title)
         // document.body.removeChild(title)
+
+        for(i=0;i<3;i++){
+            let para=document.createElement("p")
+            para.className="fsjs"
+            para.style.fontSize="20px"
+            console.log(para);
+            para.textContent=i
+            document.body.appendChild(para);
+        }
+        function maths(){
+            let value=prompt("solve this 50-20")
+            if (value==30){
+                document.getElementById("fsjs2").style.backgroundColor="green"
+                document.getElementById("js").innerText="Success Redirect"
+            }
+            else{
+                document.getElementById("fsjs2").style.backgroundColor="red"
+                document.getElementById("js").innerText="fail tryt again"
+            }
+        }
     </script>
 </body>
 

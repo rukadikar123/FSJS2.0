@@ -6,7 +6,7 @@
 } 
 .page1{
     height: 100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./Assets/Photos/futuristic-bg.png');
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./Assets/Photos/futuristic-bg.png');
     background-repeat: no-repeat;
     background-position: bottom;
     /* background-size: co  ver; */
@@ -24,6 +24,9 @@
     list-style: none;
     gap: 50px;
     margin-right: 270px;
+}
+.navbar ul li{
+    cursor: pointer;
 }
 .navbar>div {
     margin-right: 50px;
@@ -96,4 +99,32 @@
     width: 14vw;
     top: 255px;
     right: 75px;
+}
+.rightArrow{
+    position: relative;
+    top: 240px;
+    left: 190px;
+}
+button{
+    cursor: pointer;
+}
+.page2{
+    height: 90vh;
+    width: 100%;
+}
+.top h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 170px;
+    margin-left: 400px;
+    width: 700px;
+}
+.list1{
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 220% 100%;
+    background-position: -210px 0;
+    
+    height: 43vh;
+    width:15vw;
 }
