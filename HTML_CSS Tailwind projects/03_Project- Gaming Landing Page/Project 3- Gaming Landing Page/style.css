@@ -10,8 +10,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./Assets/Photos/futuristic-bg.png');
     background-repeat: no-repeat;
     background-position: bottom;
-    /* background-size: co  ver; */
-    /* opacity: 8.5; */
+
 }
 
 .navbar {
@@ -106,10 +105,12 @@
     left: 2px;
     backdrop-filter: blur(15px);
 }
-.Play_btn:hover{
+
+.Play_btn:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
+
 .dash {
     position: relative;
     top: 280px;
@@ -156,7 +157,11 @@ button:hover {
     justify-content: space-between;
     align-items: center;
 }
-.list1:hover,.list2:hover,.list3:hover,.list4:hover{
+
+.list1:hover,
+.list2:hover,
+.list3:hover,
+.list4:hover {
     transform: scale(1.1);
 }
 
@@ -529,44 +534,51 @@ button:hover {
     gap: 5px;
     padding: 10px 190px 0 110px;
     justify-content: space-between;
-  
+
 }
-.footer_col{
+
+.footer_col {
     display: flex;
     flex-direction: column;
-   gap: 15px;
-   margin: 10px 10px;
+    gap: 15px;
+    margin: 10px 10px;
 }
-.footer_col .logo_img >img{
+
+.footer_col .logo_img>img {
     height: 5vh;
 
 }
-    
 
-.footer_col h4{
+
+.footer_col h4 {
     color: white;
     font-weight: 400;
     padding-bottom: 14px;
     margin-top: 10px;
 }
-.footer_col p{
+
+.footer_col p {
     color: rgba(255, 255, 255, 0.626);
     font-size: 14px;
-    
+
 }
-.footer_col_img{
+
+.footer_col_img {
     display: flex;
     gap: 15px;
 }
-.footer_col_para{
+
+.footer_col_para {
     width: 13vw;
     line-height: 28px;
-    
+
 }
-.new_line{
+
+.new_line {
     border: 1px solid gray;
 }
-.endbox{
+
+.endbox {
     height: 10vh;
     background-color: rgb(18, 18, 28);
 }
