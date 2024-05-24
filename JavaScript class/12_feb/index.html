@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+
+<body>
+    <div class="root">Not Rendering</div>
+
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script type="text/babel">
+        const root_element = document.querySelector(".root");
+        const cssss={border:"2px solid pink",backgroundColor:"yellow"}
+        const header = (<header>
+            <h1>hello</h1>
+            <p>hello namaste</p>
+        </header>);
+        const main = (<main style={cssss}>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </main>
+        );
+        const footer = (
+            <footer><p>Copyright @2024</p></footer>
+        );
+
+        const app=<>{header} {main} {main} {main} {main} {footer}</>;
+        ReactDOM.render(app, root_element);
+    </script>
+</body>
+
+</html>
