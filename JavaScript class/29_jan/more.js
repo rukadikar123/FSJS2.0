@@ -1,11 +1,11 @@
 // spread and rest
 
 // spread 
-// function sumone(x,y){
-//     return x+y;
+// function sumone(x,y,z){
+//     return x+y+z;
 // }
 
-// let var1=[9,7]
+// let var1=[9,7,7]
 
 // console.log(sumone(...var1));
 
@@ -64,32 +64,32 @@
 
 // promise 
 
-// const One=()=>{
-//     return "i am one";
-// }
+const One=()=>{
+    return "i am one";
+}
 
-// const two= () =>{
-//     return new Promise((resolve,reject)=>{
-//         setTimeout(()=>{
-//             resolve("credential correct")
-//         },3000)
-//     });
-// }
-// const three= () =>{
-//     return "i am three";
-// }
+const two= () =>{
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            resolve("credential correct")
+        },3000)
+    });
+}
+const three= () =>{
+    return "i am three";
+}
 
-// const callMe=async  () =>{
-//     let valone=One();
-//     console.log(valone);
+const callMe=async  () =>{
+    let valone=One();
+    console.log(valone);
 
-//     let valtwo= await two();
-//     console.log(valtwo);
+    let valtwo= await two();
+    console.log(valtwo);
 
-//     let valthree=three();
-//     console.log(valthree);
+    let valthree=three();
+    console.log(valthree);
     
-// }
+}
 
-// callMe()
+callMe()
 
