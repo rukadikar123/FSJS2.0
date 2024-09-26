@@ -11,7 +11,6 @@ function MovieSearch() {
     axios.get(`https://www.omdbapi.com/?s=${movieName}&apikey=2e3438e`).then((res)=>{
         setMovieData(res.data.Search)
     })
-    setMovieName("")
   }
   
   return (
