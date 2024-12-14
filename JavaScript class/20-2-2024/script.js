@@ -1,19 +1,21 @@
-let heros = ["thor", "iron man", "spiderman"]
-let dcheros = ["batman", "superman"]
+// let heros = ["thor", "iron man", "spiderman"]
+// let dcheros = ["batman", "superman"]
 
-let heropowers = {
-    thor: 'hammer',
-    spiderman: 'sling',
+// let heropowers = {
+//     thor: 'hammer',
+//     spiderman: 'sling',
 
-    getspiderpower: function () {
-        console.log(`spidy power is ${this.spiderman} `);
-    }
-}
-Object.prototype.sid = function () {
-    console.log(`sid is present in all objects`);
-}
+//     getspiderpower: function () {
+//         console.log(`spidy power is ${this.spiderman} `);
+//     }
+// }
+// Object.prototype.sid = function () {
+//     console.log(`sid is present in all objects`);
+// }
 
-heros.sid()
+// heropowers.sid()
+// heros.sid()
+// dcheros.sid()
 
 // inheritance
 
@@ -38,10 +40,10 @@ heros.sid()
 
 // to get true length
 
-// let yourname = "rahul    "
+let yourname = "rahul    "
 
-// String.prototype.truelength = function () {
-//     console.log(`true length is ${this.trim().length}`)
-// }
-// myname = "sid   "
-console.log(Math.random()*256);
+String.prototype.truelength = function () {
+    console.log(`true length is ${this.trim().length}`)
+}
+myname = "sid   "
+console.log(Math.floor(Math.random()*100));

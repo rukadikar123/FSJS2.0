@@ -1,4 +1,4 @@
-// var a=10;
+// var a=14;
 // console.log(a);
 
 // function sum(){

@@ -33,6 +33,19 @@
 //   console.log(result);
 // })
 
-const url = "https://restcountries.com/v2/all";
+// const url = "https://restcountries.com/v2/all";
 
-fetch(url).then((response) => response.json()).then((data) => console.log(data)).catch((error) => console.log(error))
+// fetch(url).then((response) => response.json()).then((data) => console.log(data)).catch((error) => console.log(error))
+
+function outer() {
+    let x = 10;
+  
+    function inner() {
+      console.log(x); // Output: 10
+    }
+  
+    return inner;
+  }
+  
+  const innerFunc = outer();
+  innerFunc(); // Output: 10
