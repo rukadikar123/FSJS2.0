@@ -20,3 +20,9 @@
 # Article on CSS Grid:
 
 [Your link is Here](https://rukadikarsiddharth.hashnode.dev/css-grid)
+
+# Article on Array Methods in Js:
+
+[Your link is Here](https://rukadikarsiddharth.hashnode.dev/array-methods-in-java-script)
+
+
